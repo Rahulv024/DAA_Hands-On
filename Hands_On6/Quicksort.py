@@ -1,4 +1,3 @@
-```
 import random
 
 # Quicksort with a fixed pivot selection
@@ -46,5 +45,8 @@ if __name__ == "__main__":
     # Sort using the random pivot quicksort
     quicksort_random(test_array2, 0, len(test_array2) - 1)
     print("Sorted array with random pivot:", test_array2)
-```
 
+#OUTPUT
+#The original array is: [24, 18, 45, 10, 7, 1, 99]
+#Sorted array with fixed pivot: [1, 7, 10, 18, 24, 45, 99]
+#Sorted array with random pivot: [1, 7, 10, 18, 24, 45, 99]
