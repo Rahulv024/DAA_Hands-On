@@ -22,7 +22,6 @@ def partition(arr, low, high):
     arr[i + 1], arr[high] = arr[high], arr[i + 1]
     return i + 1
 
-# Helper function to call quicksort and average the result over multiple trials
 def benchmark_case(arr, num_trials=5):
     total_time = 0
     for _ in range(num_trials):
@@ -48,7 +47,7 @@ for size in sizes:
     # Worst case: reverse sorted array
     arrWorst = arrBest[::-1]
 
-    # Average case: random array with a larger range of numbers
+    # Average case: random array with a larger range of number
     arrAvg = [random.randint(0, size * 10) for _ in range(size)]
 
     # Benchmarking
