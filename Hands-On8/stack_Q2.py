@@ -46,3 +46,9 @@ print("Pop element:", stack.pop())
 stack.display()
 stack.pop()
 
+
+#OUTPUT:
+#Array: [7, 10, 17, 18]
+#Top element: 18
+#Pop element: 18
+#Array: [7, 10, 17]
