@@ -55,3 +55,11 @@ print("Dequeue element:", queue.dequeue())
 queue.display()
 print("Dequeue element:", queue.dequeue())
 queue.display()
+
+#OUTPUT:
+#Array: [10, 20, 30, 40]
+#Front element: 10
+#Dequeue element: 10
+#Array: [20, 30, 40]
+#Dequeue element: 20
+#Array: [30, 40]
