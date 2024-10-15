@@ -73,3 +73,10 @@ linked_list.display_list()
 print("Deleted from start:", linked_list.delete_first())
 print("Deleted from end:", linked_list.delete_last())
 linked_list.display_list()
+
+
+#OUTPUT:
+#List contents: [10, 20, 30, 40, 50]
+#Deleted from start: 10
+#Deleted from end: 50
+#List contents: [20, 30, 40]
