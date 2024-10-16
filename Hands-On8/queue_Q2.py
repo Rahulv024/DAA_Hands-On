@@ -45,10 +45,10 @@ class Queue:
 
 # Example usage:
 queue = Queue(5)
-queue.enqueue(10)
-queue.enqueue(20)
-queue.enqueue(30)
-queue.enqueue(40)
+queue.enqueue(24)
+queue.enqueue(33)
+queue.enqueue(45)
+queue.enqueue(69)
 queue.display()  # Output queue contents
 print("Front element:", queue.front_element())
 print("Dequeue element:", queue.dequeue())
@@ -57,9 +57,9 @@ print("Dequeue element:", queue.dequeue())
 queue.display()
 
 #OUTPUT:
-#Array: [10, 20, 30, 40]
-#Front element: 10
-#Dequeue element: 10
-#Array: [20, 30, 40]
-#Dequeue element: 20
-#Array: [30, 40]
+#Array: [24, 33, 45, 69]
+#Front element: 24
+#Dequeue element: 24
+#Array: [33, 45, 69]
+#Dequeue element: 33
+#Array: [45, 69]
