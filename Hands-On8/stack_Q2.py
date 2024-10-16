@@ -36,10 +36,10 @@ class Stack:
 
 # Example usage:
 stack = Stack(5)
-stack.push(7)
+stack.push(2)
 stack.push(10)
-stack.push(17)
-stack.push(18)
+stack.push(24)
+stack.push(49)
 stack.display()  # Output stack contents
 print("Top element:", stack.peek())
 print("Pop element:", stack.pop())
@@ -48,7 +48,7 @@ stack.pop()
 
 
 #OUTPUT:
-#Array: [7, 10, 17, 18]
-#Top element: 18
-#Pop element: 18
-#Array: [7, 10, 17]
+#Array: [2, 10, 24, 49]
+#Top element: 49
+#Pop element: 49
+#Array: [2, 10, 24]
