@@ -41,4 +41,4 @@ print(f"The {i+1}th smallest element is: {result}")
 
 
 #OUTPUT: 
-#The 4th smallest element is: 23
+#The 4th smallest element is: 29
