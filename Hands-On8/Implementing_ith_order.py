@@ -34,7 +34,7 @@ def ith_order_statistic(arr, i):
     return quickselect(arr, 0, len(arr) - 1, i)
 
 # Example
-arr = [24,10,7,18,23,99,66]
+arr = [7,18,69,37,45,1,29]
 i = 3  # Find the 4th smallest element as index starts from 0
 result = ith_order_statistic(arr, i)
 print(f"The {i+1}th smallest element is: {result}")
