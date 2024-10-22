@@ -130,8 +130,8 @@ hash_table = HashTable()
 # Insert key-value pairs
 hash_table.insert(10, 24)
 hash_table.insert(20, 18)
-hash_table.insert(30, 45)
-hash_table.insert(40, 7)
+hash_table.insert(30, 7)
+hash_table.insert(40, 45)
 
 # Display the hash table
 hash_table.display()
@@ -140,7 +140,29 @@ hash_table.display()
 print("Value for key 30:", hash_table.get(30))
 
 # Delete a key
-hash_table.delete(40)
+hash_table.delete(30)
 
 # Display the hash table after deletion
 hash_table.display()
+
+
+
+#OUTPUT
+#Bucket 0: None
+#Bucket 1: None
+#Bucket 2: (30: 7) -> None
+#Bucket 3: (10: 24) -> None
+#Bucket 4: None
+#Bucket 5: (40: 45) -> None
+#Bucket 6: (20: 18) -> None
+#Bucket 7: None
+#Value for key 30: 7
+#Removing key: 30
+#Bucket 0: None
+#Bucket 1: None
+#Bucket 2: None
+#Bucket 3: (10: 24) -> None
+#Bucket 4: None
+#Bucket 5: (40: 45) -> None
+#Bucket 6: (20: 18) -> None
+#Bucket 7: None
