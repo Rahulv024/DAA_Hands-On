@@ -136,7 +136,7 @@ class AVLTree:
 avl_tree = AVLTree()
 
 # Insert nodes
-for value in [10, 20, 30, 40, 50, 25]:
+for value in [10, 20, 30, 40, 50, 60]:
     avl_tree.insert(value)
 
 # Inorder traversal to check the sorted structure of the AVL tree
@@ -161,8 +161,8 @@ print("Inorder Traversal after Deleting 50:", inorder_after_delete_50)
 print("Inorder Traversal after Deleting 30:", inorder_after_delete_30)
 
 #OUTPUT
-#Inorder Traversal: [10, 20, 25, 30, 40, 50]
+#Inorder Traversal: [10, 20, 30, 40, 50, 60]
 #Search for 30: Found
 #Search for 100: Not found
-#Inorder Traversal after Deleting 50: [10, 20, 25, 30, 40]
-#Inorder Traversal after Deleting 30: [10, 20, 25, 40]
+#Inorder Traversal after Deleting 50: [10, 20, 30, 40, 60]
+#Inorder Traversal after Deleting 30: [10, 20, 40, 60]
