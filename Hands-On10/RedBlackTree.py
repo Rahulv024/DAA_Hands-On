@@ -128,22 +128,23 @@ class RedBlackTree:
 
 # Test the modified Red-Black Tree with updated variable names
 rbt = RedBlackTree()
-for value in [10, 20, 30, 40, 50, 25]:
+for value in [10, 20, 30, 40, 50, 60]:
     rbt.insert(value)
 
 # Inorder traversal to check if the values are in sorted order with their colors
 inorder_result = rbt.inorder_traversal()
 
 # Search tests
-search_25 = rbt.search(25).value if rbt.search(25) else "Not found"
+search_60 = rbt.search(60).value if rbt.search(60) else "Not found"
 search_100 = "Found" if rbt.search(100) else "Not found"
 
-inorder_result, search_25, search_100
+inorder_result, search_60, search_100
 
 # Printing the results to ensure they are displayed for the user.
 print("In-Order Traversal with Colors:", inorder_result)
-print("Search for 25:", search_25)
+print("Search for 60:", search_60)
 print("Search for 100:", search_100)
+
 
 #OUTPUT
 #In-Order Traversal with Colors: [(10, 'black'), (20, 'black'), (25, 'red'), (30, 'black'), (40, 'red'), (50, 'black')]
