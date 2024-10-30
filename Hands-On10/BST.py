@@ -77,7 +77,7 @@ class BinarySearchTree:
 
 # Test the modified Binary Search Tree with the updated variable names
 bst = BinarySearchTree()
-for value in [50, 30, 20, 40, 70, 60, 80]:
+for value in [50, 30, 20, 40, 70, 60, 10]:
     bst.insert(value)
 
 # Perform inorder traversal before and after deletion operations
@@ -102,7 +102,7 @@ print("In-Order Traversal after Deleting 30:", inorder_after_delete_30)
 print("In-Order Traversal after Deleting 50:", inorder_after_delete_50)
 
 #OUTPUT
-#In-Order Traversal (Initial): [20, 30, 40, 50, 60, 70, 80]
-#In-Order Traversal after Deleting 20: [30, 40, 50, 60, 70, 80]
-#In-Order Traversal after Deleting 30: [40, 50, 60, 70, 80]
-#In-Order Traversal after Deleting 50: [40, 60, 70, 80]
+#In-Order Traversal (Initial): [10, 20, 30, 40, 50, 60, 70]
+#In-Order Traversal after Deleting 20: [10, 30, 40, 50, 60, 70]
+#In-Order Traversal after Deleting 30: [10, 40, 50, 60, 70]
+#In-Order Traversal after Deleting 50: [10, 40, 60, 70]
